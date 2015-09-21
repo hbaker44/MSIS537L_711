@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HBaker Assignment Two" id="7B4CD08A-948F-51C5-B1C4-6EF53BA8860E" version="3.5">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:23:37 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7B4CD08A-948F-51C5-B1C4-6EF53BA8860E</designId>
+</OSDM_Design>
