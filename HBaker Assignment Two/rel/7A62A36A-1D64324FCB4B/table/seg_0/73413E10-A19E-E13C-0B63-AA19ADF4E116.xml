@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73413E10-A19E-E13C-0B63-AA19ADF4E116" name="Employee">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:57:29 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmpNo" id="9013A158-B052-F054-1482-21879037E4C5">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:59:32 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpFirstName" id="5C845D02-E9C6-53A6-E3B8-9F0B28246F0A">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:59:32 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpLastName" id="D98A4A9F-5E06-8799-725B-E96B06221B5E">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:59:32 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpPhone" id="7F2F718F-0E14-6B61-D40C-F05A69B2AA13">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:59:32 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpEmail" id="9128AE3B-FA85-24C4-2827-A360AEA24E1D">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:59:32 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8898DDBE-9D27-BC14-12C1-CEF00E4B170D" name="Employee_PK">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:59:32 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9013A158-B052-F054-1482-21879037E4C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

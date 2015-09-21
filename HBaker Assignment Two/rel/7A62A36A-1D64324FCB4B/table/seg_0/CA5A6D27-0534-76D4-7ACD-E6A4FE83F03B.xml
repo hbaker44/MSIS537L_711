@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA5A6D27-0534-76D4-7ACD-E6A4FE83F03B" name="Customer">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:52:26 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustNo" id="1019C362-8B84-F262-CBB0-093E04A8A3B8">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:55:39 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustFirstName" id="01A5DBEA-2781-A258-9D27-D7981B983523">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:55:39 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustLastName" id="7C13C262-6B53-2EDF-055D-9BD64D55ECE0">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:55:39 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustCity" id="CD9427A2-DB19-19FD-EF53-DD570900638A">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:55:39 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustState" id="F1611D70-E31E-D631-5810-DF9FC3475807">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:55:39 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustZip" id="626C6A13-17C4-2838-7412-509B00032C72">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:55:39 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustBal" id="88002DCB-3906-CFF8-AC2E-07BC544771D0">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:55:39 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6041B4D-81D7-B596-06A9-348DDE6B900A" name="Customer_PK">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:55:39 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1019C362-8B84-F262-CBB0-093E04A8A3B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

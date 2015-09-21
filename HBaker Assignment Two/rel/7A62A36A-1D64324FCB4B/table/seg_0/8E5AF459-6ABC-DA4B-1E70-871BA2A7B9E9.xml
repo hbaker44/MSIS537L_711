@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E5AF459-6ABC-DA4B-1E70-871BA2A7B9E9" name="OrderTbl">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 18:59:40 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrdNo" id="1910A0B3-4436-4990-567F-7AA36FA74E0B">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 19:00:53 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrdDate" id="7F497502-B75D-C786-591E-E530002061D5">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 19:00:53 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_CustNo" id="B483BA7F-56E9-704F-B2EC-087C651004EE">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 19:02:12 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24B1F715-B4B9-8DF9-5022-559D5ED43098" referredColumn="1019C362-8B84-F262-CBB0-093E04A8A3B8"/>
+</associations>
+</Column>
+<Column name="Employee_EmpNo" id="3C48542F-5B20-3B3F-F95C-ECFD1461ABBA">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 19:02:46 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5727592B-C7EF-52CF-2703-177BB82F6011" referredColumn="9013A158-B052-F054-1482-21879037E4C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30B81849-0C46-4448-F5B2-FE1594B5F2B7" name="OrderTbl_PK">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 19:00:53 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1910A0B3-4436-4990-567F-7AA36FA74E0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7E6E756-4961-E9E9-B406-C2977A34A4ED" name="OrderTbl_Customer_FK">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 19:02:12 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B483BA7F-56E9-704F-B2EC-087C651004EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2848F442-D09F-F543-2F84-D636A30B9978" name="OrderTbl_Employee_FK">
+<createdBy>Holly</createdBy>
+<createdTime>2015-09-20 19:02:46 UTC</createdTime>
+<ownerDesignName>HBaker Assignment Two</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C48542F-5B20-3B3F-F95C-ECFD1461ABBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
